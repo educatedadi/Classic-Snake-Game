@@ -17,10 +17,6 @@ def switch_off():
     is_looping = False
 
 
-def do_nothing():
-    pass
-
-
 is_looping = True
 while is_looping:
 
@@ -38,6 +34,7 @@ while is_looping:
     game_is_on = False
     did_respond = False
 
+    # Checks if user has responded to prompts or not
     while not did_respond:
         score.ask_to_play()
         canvas.onkey(key='space', fun=switch_on)
