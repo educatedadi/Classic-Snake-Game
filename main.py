@@ -63,7 +63,9 @@ while is_looping:
 
         # Detects collision with the Wall
         # game_is_on = snake.check_wall_collision()
-
+        
+        # TO SWITCH B/W LEVELS THEN COMMENT OUT ONE LINE, EITHER ABOVE⬆(game_is_on) OR BELOW⬇(snake.loops...)
+        
         # Loops back from other side of screen if gets outside of the screen
         snake.loops_back_to_screen()
 
